@@ -24,14 +24,12 @@ p{
     background-image: linear-gradient(#ffffff, green);
  }
 #color-main{
-    background-color: #7c9dc9;
-    /* border-top-left-radius: 80px; */
-    /* border-bottom-right-radius: 80px; */
+    background-color: greenyellow;
 }
 
 
 #div-color-1{
-    background-image: linear-gradient(#7c9dc9, green);
+    background-image: linear-gradient(greenyellow, green);
  }
 #color-1{
     background-color: blue;
