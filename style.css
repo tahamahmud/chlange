@@ -75,6 +75,12 @@ p{
  #div-color-7{
     background-image: linear-gradient(greenyellow,greenyellow, red, red);
  }
+ .majic{
+     height: 400px;
+     width: 400px;
+     background-image: linear-gradient( red, yellow);
+     border-radius:100% 0% 100% 0% / 100% 0% 100% 0%;
+ }
  #color-7{
      background-color: #ffff;
      border-radius: 0 100px 0 100px ;
