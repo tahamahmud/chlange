@@ -19,17 +19,17 @@ p{
     padding: 0%;
 }
 
-
+/* 
 #div-color-manin{
     background-image: linear-gradient(#ffffff, green);
- }
+ } */
 #color-main{
-    background-color: greenyellow;
+    background-color: #ffff;
 }
 
 
 #div-color-1{
-    background-image: linear-gradient(greenyellow, green);
+    background-image: linear-gradient(#ffff, #ffff, green,green);
  }
 #color-1{
     background-color: blue;
@@ -37,7 +37,7 @@ p{
     border-bottom-right-radius: 80px;
 }
 #div-color-2{
-   background-image: linear-gradient(blue, rgb(255, 17, 0));
+   background-image: linear-gradient(blue,blue, rgb(255, 17, 0),rgb(255, 17, 0));
 }
 #color-2{
     background-color: green;
@@ -46,7 +46,7 @@ p{
 }
 
 #div-color-3{
-    background-image: linear-gradient(green, yellow);
+    background-image: linear-gradient(green, green,yellow,yellow);
  }
 #color-3{
     background-color: rgb(255, 17, 0);
@@ -55,7 +55,7 @@ p{
 }
 
 #div-color-4{
-    background-image: linear-gradient(rgb(255, 17, 0), tomato);
+    background-image: linear-gradient(rgb(255, 17, 0),rgb(255, 17, 0), tomato,tomato);
  }
  #color-4{
      background-color: yellow;
@@ -64,26 +64,34 @@ p{
  }
  
  #div-color-5{
-     background-image: linear-gradient(yellow
-     , greenyellow);
+     background-image: linear-gradient(yellow,
+     yellow,greenyellow, greenyellow);
   }
  #color-5{
      background-color: tomato;
      border-top-right-radius: 80px;
      border-bottom-right-radius: 80px;
  }#div-color-6{
-    background-image: linear-gradient(tomato, rgb(255, 17, 0));
+    background-image: linear-gradient(tomato,tomato, #fff, #ffffff);
  }
  #color-6{
      background-color: greenyellow;
      border-top-left-radius: 80px;
      border-bottom-left-radius: 80px; 
  }
- 
  #div-color-7{
+    background-image: linear-gradient(greenyellow,greenyellow, red, red);
+ }
+ #color-7{
+     background-color: #ffff;
+     border-top-right-radius: 80px;
+     border-bottom-left-radius: 80px; 
+ }
+ 
+ #div-color-main-footer{
      background-image: linear-gradient(greenyellow, rgb(255, 0, 200));
   }
- #color-7{
+ #color-main-footer{
      background-color: rgb(255, 17, 0); 
  } 
  #color-footer{
@@ -96,4 +104,5 @@ p{
      display: flex;
      align-items: center;
      justify-content: center;
+     text-align: center;
  }
