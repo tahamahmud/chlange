@@ -25,23 +25,23 @@ p{
 
 
 #div-color-1{
-    background-image: linear-gradient(#ffff, #ffff, green,green);
+    background-image: linear-gradient(#ffff, #ffff, lightgreen,lightgreen);
  }
 #color-1{
-    background-color: blue;
+    background-color: lightsalmon;
     border-radius: 100px 0 100px 0;
    
 }
 #div-color-2{
-   background-image: linear-gradient(blue,blue, rgb(255, 17, 0),rgb(255, 17, 0));
+   background-image: linear-gradient(lightsalmon,lightsalmon, rgb(255, 17, 0),rgb(255, 17, 0));
 }
 #color-2{
-    background-color: green;
+    background-color: lightgreen;
     border-radius: 100px 0 0 100px ;
 }
 
 #div-color-3{
-    background-image: linear-gradient(green, green,yellow,yellow);
+    background-image: linear-gradient(lightgreen, lightgreen,yellow,yellow);
  }
 #color-3{
     background-color: rgb(255, 17, 0);
